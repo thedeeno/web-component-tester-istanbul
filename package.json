@@ -21,5 +21,8 @@
   "bugs": {
     "url": "https://github.com/thedeeno/web-component-tester-istanbul/issues"
   },
-  "homepage": "https://github.com/thedeeno/web-component-tester-istanbul"
+  "homepage": "https://github.com/thedeeno/web-component-tester-istanbul",
+  "dependencies": {
+    "istanbul": "^0.3.2"
+  }
 }
