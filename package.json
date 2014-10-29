@@ -1,0 +1,25 @@
+{
+  "name": "web-component-tester-istanbul",
+  "version": "0.1.0",
+  "description": "Instanbul coverage reporting for projects being tested by web-component-tester",
+  "main": "lib/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/thedeeno/web-component-tester-istanbul.git"
+  },
+  "keywords": [
+    "web-component-tester",
+    "istanbul",
+    "coverage",
+    "wct"
+  ],
+  "author": "Dane O'Connor",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/thedeeno/web-component-tester-istanbul/issues"
+  },
+  "homepage": "https://github.com/thedeeno/web-component-tester-istanbul"
+}
