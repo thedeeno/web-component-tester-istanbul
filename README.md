@@ -15,8 +15,8 @@ npm install web-component-tester-istanbul --saveDev
 
 # Usage
 
-In your project's wct configuration file wire up coverage support by
-attaching this plugin to the `coverage` configuration option.
+Add the following configuration to your web-component-tester's config
+file.
 
 ```js
 // wct.conf.js
