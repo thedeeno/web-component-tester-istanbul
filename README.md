@@ -1,11 +1,10 @@
 Web-Component-Tester-Istanbul
 =============================
 
-Adds istanbul coverage reporting to web-component-tester.
+Istanbul coverage plugin for web-component-tester.
 
-After configuring this plugin, web-component-tester will report collect
-and report test coverage (via istanbul) for your project on each test
-run.
+Use this plugin to collect and report test coverage (via istanbul) for
+your project on each test run.
 
 # Installation
 
@@ -15,8 +14,12 @@ npm install web-component-tester-istanbul --saveDev
 
 # Usage
 
-Add the following configuration to your web-component-tester's config
-file.
+Add the following configuration to web-component-tester's config file.
+
+Note: this requires the following pull requests to be merged:
+
+    https://github.com/Polymer/web-component-tester/pull/59
+    https://github.com/Polymer/web-component-tester/pull/60
 
 ```js
 // wct.conf.js
