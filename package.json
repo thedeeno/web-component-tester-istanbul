@@ -1,6 +1,6 @@
 {
   "name": "web-component-tester-istanbul",
-  "version": "0.4.0",
+  "version": "0.4.1",
   "description": "Instanbul coverage reporting for projects being tested by web-component-tester",
   "main": "lib/index.js",
   "scripts": {

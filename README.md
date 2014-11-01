@@ -23,7 +23,7 @@ Note: this requires the following pull requests to be merged:
 ```js
 module.exports = {
   plugins: {
-    "../../web-component-tester-istanbul": {
+    "web-component-tester-istanbul": {
       include: [
         "**/*.js"
       ],
