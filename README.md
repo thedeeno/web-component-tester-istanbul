@@ -18,19 +18,20 @@ Add the following configuration to web-component-tester's config file.
 
 Note: this requires the following pull requests to be merged:
 
-    https://github.com/Polymer/web-component-tester/pull/59
-    https://github.com/Polymer/web-component-tester/pull/60
+    https://github.com/Polymer/web-component-tester/pull/62
 
 ```js
-// wct.conf.js
-module.exports = function(config) {
-    // add coverage plugin
-    config.coverage = require('web-component-tester-istanbul');
-
-    // direct plugin to only instrument files that make it through below filters
-    config.coverage.whitelist = [""]
-    config.coverage.blacklist = [""]
-
-    return config;
+module.exports = {
+  plugins: {
+    "../../web-component-tester-istanbul": {
+      include: [
+        "**/*.js"
+      ],
+      exclude: [
+        "/polymer/polymer.js"
+        "/platform/platform.js"
+      ]
+    }
+  }
 }
 ```
