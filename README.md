@@ -20,13 +20,20 @@ Note: this requires the following pull requests to be merged:
 
     https://github.com/Polymer/web-component-tester/pull/62
 
+Example configuration:
+
 ```js
 module.exports = {
   plugins: {
     "web-component-tester-istanbul": {
+      dir: './coverage',
+
+      formats: ['text-summary', 'lcov'],
+
       include: [
         "**/*.js"
       ],
+
       exclude: [
         "/polymer/polymer.js"
         "/platform/platform.js"
