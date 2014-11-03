@@ -20,7 +20,7 @@ Note: this requires the following pull requests to be merged:
 
     https://github.com/Polymer/web-component-tester/pull/62
 
-Example configuration:
+# Example
 
 ```js
 module.exports = {
@@ -42,3 +42,22 @@ module.exports = {
   }
 }
 ```
+
+# Options
+
+## dir
+
+The directory to write coverage reports to.
+
+## formats
+
+An array of istanbul reporters to use.
+
+## include
+
+Files to include in instrumentation.
+
+## exclude
+
+Files to exclude from instrumentation (this trumps file 'included' with
+the option above).
