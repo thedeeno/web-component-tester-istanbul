@@ -28,7 +28,7 @@ module.exports = {
     "web-component-tester-istanbul": {
       dir: './coverage',
 
-      formats: ['text-summary', 'lcov'],
+      reporters: ['text-summary', 'lcov'],
 
       include: [
         "**/*.js"
@@ -51,7 +51,7 @@ Below are the available configuration options:
 
 The directory to write coverage reports to.
 
-### formats
+### reporters
 
 An array of istanbul reporters to use.
 
