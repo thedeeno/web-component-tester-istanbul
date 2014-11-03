@@ -6,13 +6,13 @@ Istanbul coverage plugin for web-component-tester.
 Use this plugin to collect and report test coverage (via istanbul) for
 your project on each test run.
 
-# Installation
+## Installation
 
 ```sh
 npm install web-component-tester-istanbul --saveDev
 ```
 
-# Usage
+## Usage
 
 Add the following configuration to web-component-tester's config file.
 
@@ -20,7 +20,7 @@ Note: this requires the following pull requests to be merged:
 
     https://github.com/Polymer/web-component-tester/pull/62
 
-# Example
+## Example
 
 ```js
 module.exports = {
@@ -43,21 +43,23 @@ module.exports = {
 }
 ```
 
-# Options
+## Options
 
-## dir
+Below are the available configuration options:
+
+### dir
 
 The directory to write coverage reports to.
 
-## formats
+### formats
 
 An array of istanbul reporters to use.
 
-## include
+### include
 
 Files to include in instrumentation.
 
-## exclude
+### exclude
 
-Files to exclude from instrumentation (this trumps file 'included' with
+Files to exclude from instrumentation (this trumps files 'included' with
 the option above).
