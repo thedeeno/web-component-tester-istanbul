@@ -2,7 +2,7 @@
   "name": "web-component-tester-istanbul",
   "version": "0.6.1",
   "description": "Instanbul coverage reporting for projects being tested by web-component-tester",
-  "main": "lib/index.js",
+  "main": "lib/plugin.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
@@ -26,5 +26,26 @@
     "istanbul": "^0.3.2",
     "lodash": "^2.4.1",
     "minimatch": "^1.0.0"
+  },
+  "wct-plugin": {
+    "cli-options": {
+      "reporters": {
+        "help": "List of reporters to use",
+        "full": "reporters",
+        "list": true
+      },
+      "dir": {
+        "help": "Coverage directory",
+        "full": "dir"
+      },
+      "exclude": {
+        "help": "Scripts to exclude from testing",
+        "full": "exclude"
+      },
+      "include": {
+        "help": "Scripts to include in testing",
+        "full": "include"
+      }
+    }
   }
 }
