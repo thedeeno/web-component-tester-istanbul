@@ -26,20 +26,15 @@ Note: this requires the following pull requests to be merged:
 module.exports = {
   plugins: {
     "web-component-tester-istanbul": {
-
       dir: "./coverage",
-
       reporters: ["text-summary", "lcov"],
-
       include: [
         "**/*.js"
       ],
-
       exclude: [
-        "/polymer/polymer.js"
+        "/polymer/polymer.js",
         "/platform/platform.js"
       ]
-
     }
   }
 }
