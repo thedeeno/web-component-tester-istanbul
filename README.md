@@ -16,10 +16,6 @@ npm install web-component-tester-istanbul --saveDev
 
 Add the following configuration to web-component-tester's config file.
 
-Note: this requires the following pull requests to be merged:
-
-    https://github.com/Polymer/web-component-tester/pull/62
-
 ## Example
 
 ```js
