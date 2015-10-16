@@ -24,6 +24,7 @@
   "homepage": "https://github.com/thedeeno/web-component-tester-istanbul",
   "dependencies": {
     "istanbul": "^0.3.2",
+    "istanbul-threshold-checker": "^0.1.0",
     "lodash": "^2.4.1",
     "minimatch": "^1.0.0",
     "parseurl": "^1.3.0"
