@@ -1,4 +1,4 @@
-Web-Component-Tester-Istanbul
+Web-Component-Tester-Istanbul with Fix [#23 Cannot read property '__coverage__' of undefined](https://github.com/thedeeno/web-component-tester-istanbul/issues/23)
 =============================
 
 Istanbul coverage plugin for web-component-tester.
@@ -6,10 +6,10 @@ Istanbul coverage plugin for web-component-tester.
 Use this plugin to collect and report test coverage (via istanbul) for
 your project on each test run.
 
-## Installation
+## Installation from a patched release 0.10.1
 
 ```sh
-npm install web-component-tester-istanbul --saveDev
+npm install --save-dev https://github.com/t2ym/web-component-tester-istanbul/tarball/0.10.1
 ```
 
 ## Basic Usage
