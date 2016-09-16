@@ -9,7 +9,7 @@ your project on each test run.
 ## Installation
 
 ```sh
-npm install web-component-tester-istanbul --saveDev
+npm install web-component-tester-istanbul --save-dev
 ```
 
 ## Basic Usage
